@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile.all-in-one
     container_name: all-in-one
     ports:
-      - "8123:80"
+      - "80:80"
     networks:
       - hi-events-network
     environment:
